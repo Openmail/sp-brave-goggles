@@ -1,0 +1,19 @@
+! name: Adult
+! description: Boost results adult sites
+! public: false
+! author: Startpage
+
+! Boost adult sites
+$boost=10,site=pornhub.com
+$boost=10,site=xnxx.com
+$boost=10,site=xvideos.com
+$boost=8,site=tik.porn
+$boost=8,site=justporn.com
+$boost=8,site=colliderporn.com
+$boost=8,site=xgroovy.com
+$boost=7,site=beeg.com
+
+! Downrank academic sources
+$downrank=6,site=pmc.ncbi.nlm.nih.gov
+$downrank=6,site=hopeagainsttrafficking.org
+.edu^$downrank=6
